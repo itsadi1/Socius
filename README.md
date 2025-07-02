@@ -23,8 +23,8 @@ Required Python packages:pip install streamlit langchain-ollama requests pyngrok
 
 Clone the Repository:
 ```
-    git clone https://github.com/itsadi1/socius.git
-    cd socius
+git clone https://github.com/itsadi1/socius.git
+cd socius
 ```
 
 ### Install Dependencies:
