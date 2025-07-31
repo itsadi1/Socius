@@ -1,4 +1,4 @@
-import subpterrocess
+import subprocess
 import streamlit as st
 from langchain_ollama import OllamaLLM
 import requests
