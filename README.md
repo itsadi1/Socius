@@ -1,6 +1,6 @@
 # Socius: Multi LLM Web Interface
 A sleek and intuitive Streamlit-based web application for managing and interacting with Ollama's language models. This application allows users to start/stop the Ollama server, select different models, and engage in conversations with a clean, user-friendly interface, enhanced by ngrok for public access.
-Features
+## Features
 
 Server Management: Start and stop the Ollama server with a single click.
 Model Selection: Seamlessly switch between supported models (Yi, Mistral, Llama3.2, Tinyllama).
@@ -84,13 +84,13 @@ Chat: Type your message in the input field, click "Send," and view the conversat
 
 ### Code Structure
 
-app.py: The main application script containing the Streamlit interface and logic for server management and model interaction.
-Key Functions:
-run_ollama_serve(): Starts the Ollama server.
-stop_ollama_serve(): Stops the Ollama server.
-check_ollama_status(): Checks if the Ollama server is running.
-init_llm_model(): Initializes or switches the language model.
-main(): Orchestrates the Streamlit interface and application logic.
+- app.py: The main application script containing the Streamlit interface and logic for server management and model interaction. <br>
+  Key Functions:
+  - run_ollama_serve(): Starts the Ollama server.
+  - stop_ollama_serve(): Stops the Ollama server.
+  - check_ollama_status(): Checks if the Ollama server is running.
+  - init_llm_model(): Initializes or switches the language model.
+  - main(): Orchestrates the Streamlit interface and application logic.
 
 
 
